@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/myWidget48"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+ <ScrollView
+    android:id="@+id/myScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    >
+    <LinearLayout
+        android:id="@+id/widget37"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+    
+   
+    <TextView
+        android:id="@+id/lblReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review :"
+        android:textColor="@color/primary_text_dark"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+       
+    <EditText
+            android:id="@+id/txtReview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:gravity="fill_horizontal" />
+
+     <TextView
+        android:id="@+id/lblAdditionalinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Information :"
+        android:textColor="@color/primary_text_dark"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+       
+    <EditText
+            android:id="@+id/txtReviewinfo1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:gravity="fill_horizontal" />
+    
+   
+    
+               <TextView
+                android:id="@+id/lblspinnerreviewauthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="This choose the author of this review : "
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinnerreviewauthor"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="20dip"
+                android:layout_weight="1" />
+            
+               <TextView
+                android:id="@+id/lblspinnerreviewbook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Choose the book of this review : "
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinnerreviewbook"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="20dip"
+                android:layout_weight="1" />
+    <LinearLayout
+      android:id="@+id/myWidget248"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="10dp"
+      >
+   
+    </LinearLayout>
+  </LinearLayout>
+ </ScrollView>
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myWidget48"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/widget37"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lblPublisher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Publisher name (Required):"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtPublisher"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+             <TextView
+                android:id="@+id/lblPublisherHomepage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Publisher Homepage :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtPublisherhomepage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+  <TextView
+                android:id="@+id/lblPublisheremail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Publisher Email :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtPublisheremail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+            
+            
+            <TextView
+                android:id="@+id/lblPublisheraddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Publisher Address :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtPublisheraddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblPublisherinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Additional Infomation :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtPublisherinfo1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+   <TextView
+        android:id="@+id/lblbookonpublisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List of book has this publisher :"
+        android:textColor="@color/primary_text_dark"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+    
+    <ListView
+                android:id="@+id/listbookonpublisher"
+                android:layout_width="fill_parent"
+                android:layout_height="500dp" />
+            <LinearLayout
+                android:id="@+id/myWidget248"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

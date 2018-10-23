@@ -1,0 +1,30 @@
+<resources>
+
+    <string-array name="sortinglistbook">
+        <item>Title Ascending</item>
+        <item>Title Descending</item>
+       
+    </string-array>
+    <string-array name="sortinglistauthor">
+        <item>Author Fullname Ascending</item>
+        <item>Author Fullname Descending</item>
+    </string-array>
+    <string-array name="sortinglisteditor">
+        <item>Editor Fullname Ascending</item>
+        <item>Editor Fullname Descending</item>
+    </string-array>
+    <string-array name="sortinglistbookseller">
+        <item>Bookseller name Ascending</item>
+        <item>Bookseller name Descending</item>
+    </string-array>
+    <string-array name="sortinglistpublisher">
+        <item>Publisher name Ascending</item>
+        <item>Publisher name Descending</item>
+    </string-array>
+    <string-array name="sortinglistvalues">
+        <item>0</item>
+        <item>1</item>
+       
+    </string-array>
+
+</resources>

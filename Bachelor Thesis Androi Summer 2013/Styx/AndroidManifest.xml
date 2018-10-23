@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.styx"
+    android:installLocation="preferExternal"
+    android:versionCode="3"
+    android:versionName="1.01" >
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+
+        <!-- Activities -->
+        <activity
+            android:name="com.project.styx.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.project.styx.Editor_List"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_editor__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.InfoView"
+            android:label=" "
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AppPreferences"
+            android:label="@string/set_preferences" >
+        </activity>
+        <activity
+            android:name="com.project.styx.EditSortPreferences"
+            android:label="Sorting Preferences" >
+        </activity>
+        <activity
+            android:name="com.project.styx.EditAppPreferences"
+            android:label="Application Preferences" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditAuthor"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_author" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditBook"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_book" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditPublisher"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_publisher" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditEditor"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_editor" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditLanguage"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_language" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditGenre"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_genre" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditBookseller"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_bookseller" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditStorage"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_storage" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditRack"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_rack" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditRoom"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_room" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditShelf"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_shelf" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditReview"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_add_edit_review" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Language_List"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_language__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Bookseller_List"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_bookseller__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Room_List"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_room__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Storage_List"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_storage__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Book_List"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_book__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Tab_Book"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_tab__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Author_List"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_author__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Review_List"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_review__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Shelf_List"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_shelf__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Publisher_List"
+            android:label="@string/title_activity_publisher__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Rack_List"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_rack__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Genre_List"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_genre__list" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Welcome"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Report"
+            android:label="@string/title_activity_report" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Tab_Storage"
+            android:label="@string/title_activity_tab__storage" >
+        </activity>
+        <activity
+            android:name="com.project.styx.Tab_Other"
+            android:label="@string/title_activity_tab__abep" >
+        </activity>
+        <activity
+            android:name="com.project.styx.ManageData"
+            android:label="@string/title_activity_manage_data" >
+        </activity>
+        <activity
+            android:name="com.project.styx.AddEditBookAuthor"
+            android:label="@string/title_activity_add_edit_book_author" >
+        </activity>
+        <activity
+            android:name="com.project.styx.BookAuthor_List"
+            android:label="@string/title_activity_book_author__list" >
+        </activity>
+       
+        <activity
+            android:name="com.project.styx.AddEditBookBookseller"
+            android:label="@string/title_activity_add_edit_book_bookseller" >
+        </activity>
+        <activity
+            android:name="com.project.styx.BookBookseller_List"
+            android:label="@string/title_activity_book_bookseller__list" >
+        </activity>
+         <activity
+            android:name="com.project.styx.AddEditBookGenre"
+            android:label="@string/title_activity_add_edit_book_genre" >
+        </activity>
+        <activity
+            android:name="com.project.styx.BookGenre_List"
+            android:label="@string/title_activity_book_genre__list" >
+        </activity>
+    </application>
+
+    <!-- SDK version -->
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+</manifest>

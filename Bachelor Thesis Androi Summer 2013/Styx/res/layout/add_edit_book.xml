@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myWidget48"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/widget37"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lblTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Title (Required):"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Subtitle :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookSubtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblIsbn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ISBN number :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookIsbn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Year :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookYear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblEdition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Edition :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookEdition"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblCoverlink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Cover link :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookCoverlink"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblCovertype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Type of book cover :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookCovertype"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblOwncode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Owncode :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookOwncode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblPurchaseprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Purchase price :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookPurchaseprice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblCurrentprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Current price :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookCurrentprice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblPagenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Number of book pages :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookPagenumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblRecommendfor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="This book suits those situation :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookRecommendfor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblLoanto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Person loanned book to"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookLoanto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblLoantophone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Phone number of loaner:"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookLoantophone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="phone"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblLoandate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Loan date:"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/lblLoandate" >
+
+                <EditText
+                    android:id="@+id/txtBookLoandate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="fill_horizontal"
+                    android:inputType="textCapWords"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/lblPreloan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Condition before loan:"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookPreloan"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Book description:"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblspinnereditor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The editor of this book : "
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinnereditor"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="20dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/lblspinnepublsiher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The publisher of this book : "
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinnerpublisher"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="20dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/lblspinnerlanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Language of this book : "
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinnerlanguage"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="20dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/lblspinnerbookshelf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="This book is being stored in : "
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinnerbookshelf"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="20dip"
+                android:layout_weight="1" />
+
+            
+            <TextView
+                android:id="@+id/lblBookinfo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Additional Information :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookinfo1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapSentences|textMultiLine"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblBookinfo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Additional Information :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookinfo2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapSentences|textMultiLine"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblBookinfo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Additional Information :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookinfo3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapSentences|textMultiLine"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblBookinfo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Additional Information :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookinfo4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapSentences|textMultiLine"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblBookinfo5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Additional Information :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtBookinfo5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapSentences|textMultiLine"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/myWidget248"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

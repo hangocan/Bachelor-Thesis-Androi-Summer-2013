@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item android:id="@+id/sorting_options"
+          android:title="@string/sorting_options" 
+          android:icon="@drawable/sort_menu_icon" />
+    
+    <item
+        android:id="@+id/export_list"
+        android:icon="@drawable/export_menu_icon"
+        android:title="Export List"/>
+   
+
+</menu>

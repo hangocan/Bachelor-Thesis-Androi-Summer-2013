@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/myWidget48"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+ <ScrollView
+    android:id="@+id/myScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    >
+    <LinearLayout
+        android:id="@+id/widget37"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+    
+    <TextView
+        android:id="@+id/lblLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language (Required):"
+        android:textColor="@color/primary_text_dark"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+       
+    <EditText
+            android:id="@+id/txtLanguage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:gravity="fill_horizontal" />
+    
+    
+    
+    
+    <TextView
+        android:id="@+id/lblLanguageinfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional information :"
+        android:textColor="@color/primary_text_dark"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+       
+    <EditText
+            android:id="@+id/txtLanguageinfo1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:gravity="fill_horizontal" />
+       <TextView
+        android:id="@+id/lblbookonlanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List of book has this language :"
+        android:textColor="@color/primary_text_dark"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+    
+    <ListView
+                android:id="@+id/listbookonlanguage"
+                android:layout_width="fill_parent"
+                android:layout_height="500dp" />
+    
+   
+    
+    <LinearLayout
+      android:id="@+id/myWidget248"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="10dp"
+      >
+   
+    </LinearLayout>
+  </LinearLayout>
+ </ScrollView>
+</LinearLayout>

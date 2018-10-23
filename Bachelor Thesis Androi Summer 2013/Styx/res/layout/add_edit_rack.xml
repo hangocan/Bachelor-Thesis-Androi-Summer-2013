@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myWidget48"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/widget37"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lblRacklabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Rack label (Required):"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtRacklabel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblRackinfo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Additional Infomation :"
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtRackinfo1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+         
+               <TextView
+                android:id="@+id/lblspinnerrack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="This rack belong to room : "
+                android:textColor="@color/primary_text_dark"
+                android:textStyle="bold" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinnerrack"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="20dip"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:id="@+id/myWidget248"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
